@@ -1,10 +1,53 @@
 /*
 Colors to use:
-dark blue: #06365f
-light blue: #1c5380
+dark blue: 
+light blue:
 */
+
+.top {
+  background:#06365f;
+  height: 300px;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.right {
+  width:500px;
+}
+
+body {
+  text-align: center;
+}
+
+.phone, .right, .bottom {
+  display:inline-block;
+}
+
+.bottom {
+  margin-top: -150px;
+  /* background:green; */
+}
+.text {
+  background:white;
+  border-radius:10px;
+}
+
+h2 {
+  color:#1c5380;
+}
+
+.brand a {
+  background:#1c5380;
+  border-radius:10px; 
+  padding:20px;
+  display:inline-block;
+  color:white;
+  text-decoration:none;
+}
+
+.brand a div{
+  vertical-align:middle;
 }
