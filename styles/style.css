@@ -1,11 +1,11 @@
 /*
-Colors to use:
+Colors to use: 
 dark blue: 
-light blue:
+light blue: 
 */
 
 .top {
-  background:#06365f;
+  background: #06365f;
   height: 300px;
 }
 
@@ -15,39 +15,113 @@ body {
 }
 
 .right {
-  width:500px;
+  width: 500px;
+  height: 512px;
 }
 
 body {
   text-align: center;
+  /* background-color: #1c5380; */
 }
 
 .phone, .right, .bottom {
-  display:inline-block;
+  display: inline-block;
 }
 
 .bottom {
-  margin-top: -150px;
-  /* background:green; */
+  margin-top: -200px;
+  /* background: green; */
+  align-items: center;
 }
+
 .text {
-  background:white;
-  border-radius:10px;
+  background: url("../images/frame.png") no-repeat;
+  border-radius: 10px;
+  padding: 15px 50px;
+  text-align: left;
+  margin-bottom: 20px;
+
 }
 
 h2 {
-  color:#1c5380;
+  color: #1c5380;
+  line-height: 30px;
+}
+
+
+.phone {
+  height: 512px;
+  margin-right: 40px;
+}
+
+.brand {
+  display: flex;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  justify-content: space-between;
+  vertical-align: center;
 }
 
 .brand a {
-  background:#1c5380;
-  border-radius:10px; 
-  padding:20px;
-  display:inline-block;
-  color:white;
-  text-decoration:none;
+  background: #1c5380;
+  border-radius: 3px; 
+  padding: 15px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
 }
 
-.brand a div{
-  vertical-align:middle;
+.brand div a {
+  display: flex;
+  align-content: center;
+  
+}
+
+.brand > img {
+margin-right: 20px;
+}
+
+.brand div img {
+  margin-right: 10px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.brand div {
+  height: 54px;
+  margin: auto 0;
+}
+
+.downloads {
+  text-align: left;
+  padding: 0 50px;
+}
+
+.bottom nav {
+  margin-top: 60px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 10px;
+  font-weight: 600;
+  color: #949494;
+  text-transform: uppercase;
+  padding: 0 140px;
+  /* background-color: red; */
+}
+
+.bottom nav a {
+  text-decoration: none;
+  color: #1c5380;
+  
+}
+
+@media (max-width: 863px) {
+  .phone {
+    display: none;
+  }
 }
